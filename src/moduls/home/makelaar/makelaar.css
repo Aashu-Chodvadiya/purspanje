@@ -1,0 +1,261 @@
+.makelaargrid {
+    display: grid;
+    grid-template-columns: 1fr 462px;
+    padding: 50px;
+    background-color: #f3f4f5;
+}
+
+.subtitle h2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(50, 50, 50, .7);
+}
+
+.subtitle h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.subtitle h3 {
+    font-size: 16px;
+    color: #1678c0;
+    font-weight: 400;
+}
+
+.semititle p {
+    color: #050505;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.makelaar-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 50px 80px;
+    gap: 20px;
+    background-color: #f3f4f5;
+}
+
+.Ervaren {
+    border-top: 1px solid #6c6c6c;
+}
+
+.Ervaren h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Ervaren p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c6c6c;
+}
+
+.Toezicht {
+    border-top: 1px solid #6c6c6c;
+}
+
+.Toezicht h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Toezicht p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c6c6c;
+}
+
+.vertrouwde {
+    border-top: 1px solid #6c6c6c;
+}
+
+.vertrouwde h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.vertrouwde p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c6c6c;
+}
+
+.over-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.one span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #191c1f;
+}
+
+.one h2 {
+    margin: 0 0 32px 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.one p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c6c6c;
+}
+
+.dat p {
+    text-align: left;
+    padding-top: 78px;
+    font-size: 16px;
+    color: #6c6c6c;
+    font-weight: 400;
+}
+
+.spanjeIMG img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.regio {
+    gap: 80px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 120px 40px 50px 40px;
+}
+
+.text-1 h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.text-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #323232;
+}
+
+
+@media(max-width:768px) {
+    .makelaargrid {
+        display: grid;
+        grid-template-columns:repeat(1 , 1fr);
+        padding: 80px 40px;
+        background-color: #f3f4f5;
+    }
+    .subtitle h2 {
+        font-size: 10px;
+        font-weight: 400;
+        color: rgba(50, 50, 50, .7);
+    }
+    .subtitle h1 {
+        font-size: 32px;
+        font-weight: 600;
+        width: 346;
+    }
+    .subtitle h3 {
+        font-size: 16px;
+        color: #1678c0;
+        font-weight: 400;
+    }
+    .semititle p {
+        color: #050505;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .over-grid {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        justify-content: space-between;
+        gap: 40px;
+    
+    }
+    .one p {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        color: #6c6c6c;
+    }
+}
+
+@media(max-width:576px){
+
+    .makelaargrid {
+        gap: 0;
+        padding: 0 20px;
+        background-color: #f3f4f5;
+    }
+    .subtitle h2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(50, 50, 50, .7);
+    }
+    .subtitle h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .subtitle h3 {
+        font-size: 16px;
+        color: #1678c0;
+        font-weight: 400;
+    }
+    .semititle p {
+        color: #050505;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .makelaar-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #f3f4f5;
+        padding: 20px;
+    }
+    .over-grid {
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        gap: 0;
+    }
+    .one p {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        color: #6c6c6c;
+    }
+    .dat p {
+        text-align: left;
+        font-size: 16px;
+        color: #6c6c6c;
+        font-weight: 400;
+        padding: 0;
+    }
+    .regio {
+        grid-template-columns: repeat(1, 1fr); 
+        padding: 60px  20px ; 
+        gap: 0;
+    }
+    .text-1 h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .text-2 p {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        color: #323232;
+    }
+    .dat p {
+       padding-bottom: 40px;
+    }
+    
+    
+}
